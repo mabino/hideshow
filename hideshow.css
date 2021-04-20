@@ -1,0 +1,24 @@
+.hidden {
+	display: none;
+}
+
+.visuallyhidden {
+	opacity: 0;
+	transition: all 1s linear;
+}
+
+.visible {
+	opacity: 1;
+	animation: showup 1s linear;
+}
+
+.redbox {
+	background: red;
+	width: 300px;
+	height: 300px;
+	margin: 30px auto;
+}
+
+.button {
+	transition: all .3s ease;
+}
